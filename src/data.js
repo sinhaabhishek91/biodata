@@ -1,8 +1,8 @@
 const biodata = {
-  "name": "DHIRAJ SINHA",
+  "name": "DHIRAJ KUMAR",
   "age": null,
   "location": "Dahisar(E), Mumbai",
-  "photo": "./WhatsApp Image 2026-06-22 at 17.47.24.jpeg",
+  "photo": "./public_images/img/pic1.jpeg",
   "contact": {
     "phone": "+91 7506669926",
     "email": "dhirajkumar84140@gmail.com"
@@ -76,12 +76,12 @@ const biodata = {
   "about": "",
   "preferences": {},
   "images": [
-    "./WhatsApp Image 2026-06-22 at 17.47.24.jpeg",
-    "./WhatsApp Image 2026-06-22 at 17.47.25 (1).jpeg",
-    "./WhatsApp Image 2026-06-22 at 17.47.25.jpeg",
-    "./WhatsApp Image 2026-06-22 at 17.47.26 (1).jpeg",
-    "./WhatsApp Image 2026-06-22 at 17.47.26 (2).jpeg",
-    "./WhatsApp Image 2026-06-22 at 17.47.26.jpeg"
+    "./public_images/img/pic1.jpeg",
+    "./public_images/img/pic2.jpeg",
+    "./public_images/img/pic3.jpeg",
+    "./public_images/img/pic4.jpeg",
+    "./public_images/img/pic5.jpeg",
+    "./public_images/img/pic6.jpeg"
   ]
 }
 

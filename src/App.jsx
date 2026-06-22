@@ -196,7 +196,7 @@ export default function App(){
 
         <motion.section id="lifestyle" className="mt-8 bg-white rounded-lg p-6 shadow-md" initial={{opacity:0, y:10}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:0.15}} transition={{duration:0.6}}>
           <h3 className="font-bold text-amber-900 text-lg mb-3">Lifestyle & Interests</h3>
-          <p className="mt-2 text-gray-700">{(data.hobbies && data.hobbies.join(', ')) || 'Not specified'}</p>
+          <p className="mt-2 text-gray-700">{(data.hobbies && data.hobbies.join(', ')) || 'Reading books, playing cricket'}</p>
         </motion.section>
 
 

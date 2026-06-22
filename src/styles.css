@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-gray-800;
+  }
+  h1, h2, h3 {
+    @apply text-amber-900;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply backdrop-blur-sm bg-white/30;
+  }
+  
+  .btn {
+    @apply bg-maroon text-white px-4 py-2 rounded-lg hover:bg-opacity-90 transition-all;
+  }
+}
+
+/* Marquee animation for gallery */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-wrap {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  background: transparent;
+}
+
+.marquee-track {
+  display: flex;
+  animation: marquee 40s linear infinite;
+  gap: 1.5rem;
+  padding: 0.5rem;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.gallery-image {
+  width: 220px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 1.125rem;
+  flex-shrink: 0;
+  display: block;
+}
+
+/* Mobile responsive gallery */
+@media (max-width: 768px) {
+  .gallery-image {
+    width: 170px;
+    height: 240px;
+  }
+  
+  .marquee-track {
+    gap: 1rem;
+  }
+}
+

@@ -76,7 +76,7 @@ async function main() {
 
   // Build about section (exclude keywords and contact info)
   const aboutIdx = lines.findIndex(l => /about|introduction|bio|profile/i.test(l))
-  let about = 'Family-oriented professional seeking a life partner.'
+  let about = ''
   if (aboutIdx !== -1) {
     about = lines.slice(aboutIdx + 1, aboutIdx + 4).filter(l => !KEYWORDS[l.toLowerCase()]).join(' ').trim()
   }
@@ -97,7 +97,6 @@ async function main() {
     hobbies: [],
     family: {},
     about: about || '',
-    preferences: {},
     images: images
   }
 

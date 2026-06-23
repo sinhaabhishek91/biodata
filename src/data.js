@@ -2,9 +2,9 @@ const biodata = {
   "name": "DHIRAJ KUMAR",
   "age": null,
   "location": "Dahisar(E), Mumbai",
-  "photo": "./public_images/img/pic1.jpeg",
+  "photo": "/images/pic1.jpeg",
   "contact": {
-    "phone": "+91 7506669926",
+    "phone": "",
     "email": "dhirajkumar84140@gmail.com"
   },
   "education": [
@@ -34,54 +34,47 @@ const biodata = {
     }
   ],
   "occupation": "SEBI PROJECT HEAD OFFICE",
-  "work": [
-    {
-      "role": "(SEBI PROJECT HEAD OFFICE)"
-    },
-    {
-      "role": "(MAY 2024 – Till The Date)"
-    },
-    {
-      "role": "(SEBI PROJECT HEAD OFFICE)"
-    },
-    {
-      "role": "(MAY 2024 – Till The Date)"
-    }
+  "company": "Datamatics Global Services Limited",
+  "personalDetails": [
+    { "label": "Full Name", "value": "Dhiraj Kumar" },
+    { "label": "Date of Birth", "value": "10/09/1998" },
+    { "label": "Height", "value": "5'5\"" },
+    { "label": "Current Location", "value": "Dahisar(E), Mumbai" },
+    { "label": "Native Place", "value": "Gopalganj, Bihar" },
+    { "label": "Education", "value": "M.Sc. IT, B.Sc. IT" },
+    { "label": "Profession", "value": "SEBI Project Head Office" }
   ],
-  "skills": [],
-  "hobbies": [],
   "family": {
     "ancestors": [
-      { "name": "Late Dr. Suryadev Kumar Sinha", "relation": "Grand Father" },
-      { "name": "Late Parmeswari Devi", "relation": "Grand Mother" }
+      { "label": "Grand Father", "value": "Late Dr. Suryadev Kumar Sinha" },
+      { "label": "Grandmother", "value": "Late Parmeswari Devi" }
     ],
     "parents": [
-      { "name": "Anil Kumar Sinha", "relation": "Father", "occupation": "Businessman" },
-      { "name": "Nilam Sinha", "relation": "Mother", "occupation": "Homemaker" }
+      { "label": "Father", "name": "Anil Kumar Sinha", "detail": "Businessman" },
+      { "label": "Mother", "name": "Nilam Sinha", "detail": "Homemaker" }
     ],
     "uncleAunty": [
-      { "name": "Awadhesh Kumar Sinha", "relation": "Uncle" },
-      { "name": "Sunita Devi", "relation": "Aunty" }
+      { "label": "Uncle", "name": "Awadhesh Kumar Sinha", "detail": "Teacher" },
+      { "label": "Aunty", "name": "Sunita Devi", "detail": "Homemaker" }
     ],
     "siblings": [
-      { "name": "Amrita Kushwaha", "relation": "Elder Sister", "occupation": "Homemaker", "spouse": "Vikash Kushwaha — Founder and CEO at USYS Technology", "children": ["Unang Kushwaha", "Divyam Kushwaha"] },
-      { "name": "Arti Kumari", "relation": "Elder Sister", "occupation": "Homemaker", "spouse": "Dhananjay Kumar — Supervisor", "children": ["Anshika Kumari", "Divyansh Kumar"] },
-      { "name": "Anupriya Sinha", "relation": "Younger Sister", "occupation": "Pursuing BA 2nd Year" },
-      { "name": "Abhishek Kumar Sinha", "relation": "Younger Brother", "occupation": "B.Tech completed, Science Engineer" },
-      { "name": "Rajupratap Sinha", "relation": "Elder Brother", "spouse": "Anushka Sinha" }
+      { "relation": "Elder Sister", "name": "Amrita Kushwaha", "detail": "Homemaker", "husband": "Vikash Kushwaha — Founder and CEO at USYS Technology", "children": ["Umang Kushwaha", "Divyam Kushwaha"] },
+      { "relation": "Elder Sister", "name": "Arti Kumari", "detail": "Homemaker", "husband": "Dhananjay Kumar — Supervisor", "children": ["Anshika Kumari", "Divyansh Kumar"] },
+      { "relation": "Elder Brother", "name": "Rajupratap Sinha", "detail": "CTO at USYS Technology", "companyUrl": "https://www.usystechnology.com/", "wife": "Anushka Sinha" },
+      { "relation": "Younger Sister", "name": "Anupriya Sinha", "detail": "Pursuing BA 2nd Year" },
+      { "relation": "Younger Brother", "name": "Abhishek Kumar Sinha", "detail": "B.Tech completed, Science Engineer" }
     ],
     "address": "Vill-Banktti South, Post Office-Mahuan, Police Station-Baikunthpur, District-Gopalganj, Bihar 841409",
     "mapLink": "https://maps.app.goo.gl/AKTBhrffnYxW9bDa8"
   },
-  "about": "",
-  "preferences": {},
+  "about": "A respectful, grounded and career-focused individual with strong cultural values, currently based in Mumbai.",
   "images": [
-    "./public_images/img/pic1.jpeg",
-    "./public_images/img/pic2.jpeg",
-    "./public_images/img/pic3.jpeg",
-    "./public_images/img/pic4.jpeg",
-    "./public_images/img/pic5.jpeg",
-    "./public_images/img/pic6.jpeg"
+    "/images/pic1.jpeg",
+    "/images/pic2.jpeg",
+    "/images/pic3.jpeg",
+    "/images/pic4.jpeg",
+    "/images/pic5.jpeg",
+    "/images/pic6.jpeg"
   ]
 }
 

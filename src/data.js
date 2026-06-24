@@ -58,11 +58,11 @@ const biodata = {
       { "label": "Aunty", "name": "Sunita Devi", "detail": "Homemaker" }
     ],
     "siblings": [
-      { "relation": "Elder Sister", "name": "Amrita Kushwaha", "detail": "Homemaker", "husband": "Vikash Kushwaha — Founder and CEO at USYS Technology", "children": ["Umang Kushwaha", "Divyam Kushwaha"] },
+      { "relation": "Elder Sister", "name": "Amrita Kushwaha", "detail": "Homemaker", "husband": "Vikash Kushwaha — Founder and CEO of USYS Technology", "children": ["Umang Kushwaha", "Divyam Kushwaha"] },
       { "relation": "Elder Sister", "name": "Arti Kumari", "detail": "Homemaker", "husband": "Dhananjay Kumar — Supervisor", "children": ["Anshika Kumari", "Divyansh Kumar"] },
       { "relation": "Elder Brother", "name": "Rajupratap Sinha", "detail": "CTO at USYS Technology", "companyUrl": "https://www.usystechnology.com/", "wife": "Anushka Sinha" },
       { "relation": "Younger Sister", "name": "Anupriya Sinha", "detail": "Pursuing BA 2nd Year" },
-      { "relation": "Younger Brother", "name": "Abhishek Kumar Sinha", "detail": "B.Tech completed, Science Engineer" }
+      { "relation": "Younger Brother", "name": "Abhishek Kumar Sinha", "detail": "B.Tech computer Science & Engineer" }
     ],
     "address": "Vill-Banktti South, Post Office-Mahuan, Police Station-Baikunthpur, District-Gopalganj, Bihar 841409",
     "mapLink": "https://maps.app.goo.gl/AKTBhrffnYxW9bDa8"
